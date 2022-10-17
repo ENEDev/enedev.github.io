@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	
+	margin: 0;
+	padding: 0;
+	background: rgb(67,67,68);
+	background: linear-gradient(90deg, rgba(67,67,68,1) 0%, rgba(145,145,163,1) 63%);
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color: white;
+}
+
+#cat-logo{
+	width: 3rem;
+	height: 2rem;
+	border-radius: 3.5rem;
+	margin-left: 10px;
+}
+
+#cat-logo::after {
+	content: " Neithan";
+	color: white;
+
+}
+.brand-title{
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+
+.navbar-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar-links li{
+	list-style: none;
+
+}
+
+.navbar-links li a {
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+	display: block;
+	font-family: 'Indie Flower', cursive;
+}	
+
+.navbar-links li:hover {
+	background-color: #707777;
+}
+
+.toggle-button{
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+@media (max-width:650px){
+	.toggle-button{
+		display:flex;
+	}
+
+	.navbar-links{
+		display:none;
+	}		
+
+	.navbar{
+		flex-direction: column;
+	}
+
+	.navbar-links ul{
+		flex-direction: column;	
+	}
+
+	.navbar-links li {
+		width: 100%;
+		align-items: center;
+	}
+	.navbar-links li a{
+		padding: .5rem 1rem;
+	}
+
+	.navbar-links.active{
+		display:flex
+	}
+
+	#cat-logo{
+		margin-top: 10px;
+	}
+
+	
+}
+
