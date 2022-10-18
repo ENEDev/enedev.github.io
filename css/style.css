@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+main{
+    background-image: url("/img/bg-stars.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    
+}
+
+main h2{
+text-align: center;
+margin-right: 15px;
+}
+
+main li{
+    padding-top: 20px;
+}
+
+.social-media{
+    width: 100%;
+    text-align: center;    
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+.after-first-icon{
+    margin-left: 40px;
+}
+
+#github{
+    margin-right: 25px;
+}
+
+.personal-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+aside{
+    background-image: url("/img/love-coding.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    flex: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 16px;
+}
+
+aside h2{
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+}
+
+aside p{
+    color: white;
+    width: 90%;
+}
+
+#i-lov-pr{
+    text-align: center;
+}
+#interest{
+    margin-top: 130px;
+}
+
+aside li{
+    color: white;
+    font-size: 13px;
+}
+
+@media (max-width:400px){
+    main{
+        height: 600px;
+    }
+    main li{
+        padding-top: 10px;
+    }
+    .social-media a{
+        margin-top: 10px;
+    }
+    .after-first-icon{
+        margin-top: 5px;
+    }
+    main{
+        padding-top: 10px;
+    }
+    #i-lov-pr{
+        height: 10px;
+    }
+       
+}
+@media (max-width:585px){
+    main{
+        height: 600px;
+        padding-left: 20px;
+    }
+    #interest{
+        height: 50px;
+    }
+    .social-media a{
+        margin-top: 25px;
+    }
+    aside p{
+        height: 60px;
+    }
+    
+}
+@media (max-width:650px){
+    main{
+        width: 55%;
+    }
+    main h2{
+        margin-right: 30px;
+    }
+    main li{
+        font-size: 12px;
+    }
+    .social-media a{
+        flex-direction: column;
+        display: flex;
+        font-size: 30px;
+        margin-right: 25px;
+        
+    }
+    .after-first-icon{
+        padding-top: 5px;
+        margin-left: 0px;
+    }
+    #github{
+        padding-top: 5px;
+    }
+    aside p{
+        font-size: 13px;
+    }
+    #interest{
+        margin-top: 130px;
+    }
+    aside li{
+        font-size: 10px;
+    }
+    #i-lov-pr{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:1500px){
+    aside p{
+        margin-left: 40px;
+        width: 80%;
+    }
+    #i-lov-pr{
+        margin-top: 40px;
+    }
+    #interest{
+        margin-top: 140px;
+        text-align: center;
+    }
+    aside li{
+        text-align: left;   
+    }
+    main li{
+        text-align: left;
+    }
+    #learn-li{
+        margin: 0 auto;
+        width: 40%;
+    }
+    #main-li{
+        margin: 0 auto;
+        width: 20%; 
+
+    }
+}
