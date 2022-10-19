@@ -117,7 +117,6 @@ footer h1{
 #footer-image{
     width: 200px;
     height: 120px;
-    flex-direction: column;
     border-radius: 30px;
 }
 @media (max-width:400px){
@@ -154,6 +153,9 @@ footer h1{
     }
     aside p{
         height: 60px;
+    }
+    footer{
+        width: 93%;
     }
     
 }
@@ -193,7 +195,12 @@ footer h1{
     #i-lov-pr{
         margin-top: 40px;
     }
+    footer{
+        width: 95%;
+    }
+
 }
+
 
 @media (min-width:1500px){
     aside p{
@@ -222,4 +229,5 @@ footer h1{
         width: 20%; 
 
     }
+
 }
