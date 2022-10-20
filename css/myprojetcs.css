@@ -1,0 +1,24 @@
+.spaces-images{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+.images img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
+
+
+figcaption{
+    text-align: center;
+}
+figcaption a{
+    color: white;
+    text-decoration: none;
+    font-size: 100px;
+}

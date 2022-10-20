@@ -1,0 +1,159 @@
+.aboutme{
+    margin-left: 0px;
+    width: 50%;
+    background-image: url("/img/blac.png");
+    border: none;
+    
+}
+
+.aboutme-divmain{
+    display: flex;
+}
+
+.aboutme-divmain aside{
+    margin-right: 0px;
+    border: none;
+}
+
+#aboutme-leftAside{
+    background-image: url(/img/neitan1.jpeg);
+}
+#aboutme-rightAside{
+    background-image: url(/img/neitahn2.jpeg);
+}
+.aboutme h1{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.personal-abilities{
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.personal-abilities .second{
+    margin-left: 70px;
+}
+.personal-abilities a{
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+}
+
+.bot:hover{
+    color: red;
+}
+
+article{
+    width: 100%;
+    height: 280px;
+    border-radius: 30px;
+    font-family: 'Indie Flower', cursive;
+    background-image: url("/img/lamp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+article .article-h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+article div{
+    display: flex;
+    justify-content: center;
+}
+
+article div figure img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+article div figure figcaption{
+    color: white;
+    text-align: center;
+}
+
+@media(max-width:1225px){
+    .personal-abilities h2{
+        font-size: 20px;
+    }
+    .personal-abilities .second{ 
+        margin-left: 30px;
+    }
+    .personal-abilities a{
+        font-size: 40px;
+    }
+}
+@media(max-width:850px){
+    .personal-abilities h2{
+        font-size: 15px;
+    }
+    .personal-abilities .second{ 
+        margin-left: 10px;
+    }
+    .personal-abilities a{
+        font-size: 36px;
+    }
+}
+
+
+@media(max-width:800px){
+    .aboutme h1{
+        margin-bottom: 10px;
+    }
+    .part1{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .personal-abilities a{
+        font-size: 20px;
+    }
+    article div figure img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+    }
+    article div figure{
+        width: 30px;
+        margin-left: 5px;
+    }
+    
+}
+
+@media(max-width:650px){
+
+    .part1{
+        text-align: center;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    #firstFigure{
+        margin-left: 30px;
+    }
+    .aboutme{
+        padding-top: 0px;
+    }
+    .personal-abilities h2{
+        font-size: 10px;
+    }
+    .personal-abilities .second{ 
+        margin-left: 5px;
+    }
+    .personal-abilities a{
+        font-size: 20px;
+    }
+    .bot{
+        margin-right: 15px;
+    }
+    .aboutme{
+        padding-top: 0px;
+    }
+}
+

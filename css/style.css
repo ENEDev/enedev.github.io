@@ -90,6 +90,34 @@ aside li{
     font-size: 13px;
 }
 
+footer{
+    width: 98%;
+    height: 280px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-left: 15px;
+    font-family: 'Indie Flower', cursive;
+    background-image: url("/img/footer-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1{
+    color: white;
+}
+#footer-image{
+    width: 200px;
+    height: 120px;
+    border-radius: 30px;
+}
 @media (max-width:400px){
     main{
         height: 600px;
@@ -124,6 +152,9 @@ aside li{
     }
     aside p{
         height: 60px;
+    }
+    footer{
+        width: 93%;
     }
     
 }
@@ -163,7 +194,12 @@ aside li{
     #i-lov-pr{
         margin-top: 40px;
     }
+    footer{
+        width: 95%;
+    }
+
 }
+
 
 @media (min-width:1500px){
     aside p{
@@ -192,4 +228,5 @@ aside li{
         width: 20%; 
 
     }
+
 }
